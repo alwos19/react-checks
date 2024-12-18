@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 
 
@@ -10,13 +10,11 @@ function Greeting(){
     return <h1>{ married ? 'Estoy casado' : 'No estoy casado'}</h1>
 }
 
+
+
 function Counter(){
 
 const  [mensaje, setMensaje] = useState('')
-
-useEffect(() => {
-    console.log('mensaje:')
-},[])
 
 return (
 
